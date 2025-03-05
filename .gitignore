@@ -1,0 +1,13 @@
+# Ignore provider.tf (if it contains sensitive credentials)
+provider.tf
+
+# Ignore Terraform state files and backup files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform-related folders
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive variable files
+terraform.tfvars
